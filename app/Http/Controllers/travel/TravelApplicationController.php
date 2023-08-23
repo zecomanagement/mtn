@@ -17,6 +17,11 @@ class TravelApplicationController extends Controller
         return view('travel.create');
     }
 
+    public function create()
+    {
+        return view('travel.create');
+    }
+
 
     public function store(Request $request)
     {
